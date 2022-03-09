@@ -1,3 +1,4 @@
+
 /* WELCOME SECTION */
 .welcome-section {
     background: url("../images/backgrounds/welcome.jpg");
@@ -54,6 +55,14 @@
     align-content: center;
 }
 /* PORTFOLIO SECTION */
+.portfolio-container {
+    padding-top: 3rem;
+    text-align: center;
+}
+ .portfolio-image {
+    height: 14rem;
+    padding: 0 0.5rem 1.5rem 0;
+} 
 /* CONTACT US SECTION */
 /* FOOTER SECTION */
 
