@@ -1,4 +1,7 @@
 
+h4 {
+    padding-bottom: 2rem;
+}
 /* WELCOME SECTION */
 .welcome-section {
     background: url("../images/backgrounds/welcome.jpg");
@@ -57,6 +60,7 @@
 /* PORTFOLIO SECTION */
 .portfolio-container {
     padding-top: 3rem;
+    padding-bottom: 3rem;
     text-align: center;
 }
  .portfolio-image {
@@ -64,5 +68,15 @@
     padding: 0 0.5rem 1.5rem 0;
 } 
 /* CONTACT US SECTION */
+.contact-container {
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+    text-align: center;
+    color: white;
+    background: url("../images/backgrounds/c_image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 /* FOOTER SECTION */
 
