@@ -1,1 +1,25 @@
 /* WELCOME SECTION */
+.welcome-section {
+    background: url("../images/backgrounds/welcome.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section1 {
+    text-align: center;
+    color: white;
+}
+
+.header-h1 {
+    padding-top: 2rem;
+}
+
+.header-section2 {
+    /* margin-top: 5rem; */
+}
+
