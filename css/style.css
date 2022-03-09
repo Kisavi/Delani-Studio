@@ -30,5 +30,17 @@
     margin-bottom: 3rem;
 }
 
+/* SERVICES SECTION */
+.services-container {
+    background: url("../images/backgrounds/services.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    line-height: 2.5rem;
+    height: 50vh;
+    padding-top: 7rem;
+    color: white;
+}
 
+/* WHAT WE DO SECTION */
 
