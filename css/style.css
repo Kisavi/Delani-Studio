@@ -2,6 +2,10 @@
 h4 {
     padding-bottom: 2rem;
 }
+
+h6 {
+    font-size: small;
+}
 /* WELCOME SECTION */
 .welcome-section {
     background: url("../images/backgrounds/welcome.jpg");
@@ -79,4 +83,17 @@ h4 {
 }
 
 /* FOOTER SECTION */
+.footer-container {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.icon {
+    height: 2.3rem;
+    padding-right: 0.5rem;
+}
+
+.icons-container {
+    padding-bottom: 1rem;
+}
 
