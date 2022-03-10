@@ -24,13 +24,13 @@ h6 {
     color: white;
 }
 
-.header-h1 {
-    padding-top: 2rem;
+.header-section1 img {
+    margin-bottom: 3rem;
 }
 
-/*.header-section2 {
+.header-section2 img {
      margin-top: 5rem; 
-}*/
+}
 
 /* ABOUT US SECTION */
 .about-section {
@@ -56,10 +56,18 @@ h6 {
     text-align: center;
 }
 
+.img1:hover, .img2:hover, .img3:hover {
+ cursor: pointer;
+}
+
 .work-subsection {
     display: flex;
     justify-content: space-between;
     align-content: center;
+}
+
+.description1, .description2, .description3 {
+    display: none;
 }
 /* PORTFOLIO SECTION */
 .portfolio-container {
