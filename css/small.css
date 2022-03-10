@@ -1,12 +1,33 @@
 @media only screen and (max-width :480px) {
     body {
-        width: 100%;
+        width: 100vi;
         overflow-x: hidden;
         max-width: 100%;
     }
 
+    /* WELCOME SECTION */
+    .welcome-section {
+        height: 70vh;
+    } 
+
+    /* SERVICES SECTION */
+    .services-container {
+        padding-top: 3rem;
+    }
+
+    /* WHAT WE DO SECTION */
     .work-subsection {
         display: flex;
         flex-direction: column;
     }
+
+    /* CONTACT US SECTION */
+    .contact-container  {
+        padding-bottom: 3rem;
+    }
+
+    .form-container {
+        padding: 0 2rem;
+    }
+    
 }

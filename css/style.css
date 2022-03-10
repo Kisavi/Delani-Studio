@@ -82,6 +82,10 @@ h6 {
     background-size: cover;
 }
 
+.form-container {
+    padding: 0 9rem;
+}
+
 .form-control {
     background: transparent;
 }
