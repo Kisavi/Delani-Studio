@@ -82,6 +82,10 @@ h6 {
     background-size: cover;
 }
 
+.form-control {
+    background: transparent;
+}
+
 /* FOOTER SECTION */
 .footer-container {
     padding-top: 2rem;
