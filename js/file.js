@@ -25,11 +25,11 @@ $(document).ready(function () {
 // CONTACT US SECTION //
 $(document).ready(function() {
     $("#myForm form").submit(function(event) {
-        let name1Input = $("input#name1").val();
-        let name2Input = $("input#name2").val();
+        let nameInput = $("input#userName").val();
+        let emailInput = $("input#userEmail").val();
         let userMessageInput = $("input#userMessage").val();
-        if(name1Input && name2Input && userMessageInput !== "") {
-            alert(`${name1Input} ${name2Input} we have received your message. Thank you for reaching out to us.`)
+        if(nameInput && emailInput && userMessageInput !== "") {
+            alert(`${nameInput} we have received your message. Thank you for reaching out to us.`)
         }
        event.preventDefault();
     })
