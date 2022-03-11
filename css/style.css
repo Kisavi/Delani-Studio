@@ -59,14 +59,8 @@ h6 {
     text-align: center;
 }
 
-.img1:hover, .img2:hover, .img3:hover {
+.work-section img:hover, .img:hover, .img:hover {
  cursor: pointer;
-}
-
-.work-subsection {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
 }
 
 .description1, .description2, .description3 {
@@ -76,7 +70,7 @@ h6 {
 .portfolio-container {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    text-align: cente;
+    text-align: center;
 }
 
 .projects {
@@ -120,9 +114,6 @@ h6 {
     display: flex;
     justify-content: space-between;
 }
-
-
-
 
 /* CONTACT US SECTION */
 .contact-container {
