@@ -1,7 +1,10 @@
-html, body {
+html,
+body {
     width: 100vw;
     max-width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 h4 {
     padding-bottom: 2rem;
 }
@@ -9,6 +12,11 @@ h4 {
 h6 {
     font-size: small;
 }
+
+p {
+    font-size: 17px;
+}
+
 /* WELCOME SECTION */
 .welcome-section {
     background: url("../images/backgrounds/welcome.jpg");
@@ -32,7 +40,7 @@ h6 {
 }
 
 .header-section2 img {
-     margin-top: 5rem; 
+    margin-top: 5rem;
 }
 
 /* ABOUT US SECTION */
@@ -59,13 +67,18 @@ h6 {
     text-align: center;
 }
 
-.work-section img:hover, .img:hover, .img:hover {
- cursor: pointer;
+.work-section img:hover,
+.img:hover,
+.img:hover {
+    cursor: pointer;
 }
 
-.description1, .description2, .description3 {
+.description1,
+.description2,
+.description3 {
     display: none;
 }
+
 /* PORTFOLIO SECTION */
 .portfolio-container {
     padding-top: 3rem;
@@ -77,13 +90,13 @@ h6 {
     position: relative;
 }
 
- .portfolio-image {
+.portfolio-image {
     height: 14rem;
     padding: 0 0.5rem 1.5rem 0;
     opacity: 1;
     display: block;
     transition: .9s ease;
-} 
+}
 
 .text {
     transition: .9s ease;
@@ -97,6 +110,7 @@ h6 {
 }
 
 .text p {
+    border-radius: 5px 20px;
     background: white;
     color: black;
     padding: 14px 28px;
@@ -110,7 +124,8 @@ h6 {
     opacity: 1;
 }
 
-.section1, .section2 {
+.section1,
+.section2 {
     display: flex;
     justify-content: space-between;
 }
@@ -158,4 +173,3 @@ h6 {
 .icons-container {
     padding-bottom: 1rem;
 }
-
